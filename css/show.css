@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(129, 160, 132, 0.822);
+
+}
+nav{
+    padding-top: 2vh;
+}
+nav a{
+    padding: 2vmin 1vmin;
+    background-color: rgba(30, 32, 34, 0.726);
+    text-decoration: none;
+    color: white;
+    transform: 1s;
+}
+nav a:hover{
+    color: black;
+    background-color: aliceblue;
+}
+.top{
+    height: 90vh;
+    padding: 4vmin;
+    padding-top: 0;
+}
+.imgs{
+    margin-top: 6vh;
+    /* display: flex; */
+    justify-content: space-evenly;
+}
+
+img{
+    /* transform: scale(0.2); */
+    width: 20vw ;
+    transition: 0.8s;
+}
+img:hover{
+    width: 22vw;
+}
+.p111{
+    position: relative;
+    left: 4vw;
+    top: 7vh;
+}
+.p333{
+    position: relative;
+    right: 3vw;
+    top: 8vh;
+}
+.t{
+    text-align: center;
+    position: relative;
+    bottom:20vh;
+    color: rgba(232, 194, 136, 0.966);
+    font-size: 11vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.t2{
+    text-align: center;
+    position: relative;
+    bottom:12vh;
+    color: rgba(41, 39, 36, 0.87);
+    text-align: right;
+    font-size: 3.8vmin;
+    padding-left: 30vw;
+    padding-right: 2vw;
+}
+
+.t1{
+    font-size: 2vmin;
+    padding-left: 2vw;
+    margin: 1vmin;
+    position: relative;
+    bottom:8vh;
+}

@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 120vh;
+    background-color: #6d5266;
+    background-image: 
+    radial-gradient(closest-side, rgba(235, 105, 78, 1), rgba(235, 105, 78, 0)),
+    radial-gradient(closest-side, rgba(254, 234, 131, 1), rgba(254, 234, 131, 0)),
+    radial-gradient(closest-side, rgba(170, 142, 245, 1), rgba(170, 142, 245, 0)),
+    radial-gradient(closest-side, rgba(248, 192, 147, 1), rgba(248, 192, 147, 0));
+    background-position:
+    -80vmax -50vmax,
+    10vmax 10vmax,
+    -30vmax -10vmax,
+    50vmax 50vmax;
+}
+.top{
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+}
+.main{
+    background-color: rgba(250, 235, 215, 0.208);
+    margin: 4%;
+    padding: 3%;
+    border-radius: 10px;
+}
+.botton{
+    float: right;
+    padding-right: 4%;
+    padding-top:3%;
+}
+.botton a{
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: azure;
+    border: 1 solid rgb(255, 255, 255);
+    padding: 8px 24px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.5s;
+    border-radius: 26px;
+}
+.botton a:hover{
+    color: black;
+    background-color: aliceblue;
+}
+.btn{
+    margin-right: 0.4vw;
+}
+.anime{
+    width: 90%;
+    height: 90%;
+    padding: 2%;
+    margin: 2% auto;
+    border-radius: 15px;
+    background-color: rgba(154, 135, 135, 0.749);
+    display:flex;align-items: center;
+    justify-content: space-between;
+    transition: 0.4s;
+}
+
+.anime:hover{
+    padding:4%;
+    background-color: rgba(189, 146, 138, 0.788);
+}
+img{
+    width: 300px;
+    float: right;
+    border-radius: 100%;
+}
+.text{
+    color: aliceblue;
+    padding: 2% 4%;
+    line-height:1.4vmax;
+    font-size: 1.1vmax;
+    color: transparent;
+    text-shadow:
+    0px 0px 1px rgba(255, 255, 255, 0.505),0px 2px 4px rgba(0, 0, 0, 0.062);
+    transition: 0.4s;
+}
+.text:hover{
+    color: aliceblue;
+    font-size: 1.3vmax;
+    line-height:2vmax;
+}

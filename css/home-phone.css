@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+margin: 0;
+}
+.top{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../imgs/phone.jpg") ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+.btn{
+    padding-top: 1.4vh;
+    padding-left: 1vw;
+    
+}
+.btn a{
+  width: 130px;
+  text-decoration: none;
+    text-align: center;
+    padding: 6px 20px;
+    background-color: rgba(181, 184, 154, 0.598);
+    border-radius: 15px;
+    color: rgba(245, 245, 220, 0.493);
+}

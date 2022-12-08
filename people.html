@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人物介绍</title>
+    <link rel="stylesheet" href="css/people.css" type="text/css">
+    <script>
+        window.onload = function(){
+            var valu = window.localStorage.getItem("login-username");
+            if(valu==null){ 
+                window.location.href="check.html";
+            }
+    }
+    </script>
+</head>
+<body>
+    <div class="botton">
+        <a class="btn" href="show.html">介绍</a>
+        <a href="index.html">回到首页</a>
+    </div>
+   <div class="top">
+    <div class="main">
+        <div class="anime">
+            <p class="text">"后藤一里/ごとう ひとり"<br><br>
+            秀华高校1年级生。结束乐队的吉他和作词担当。<br>
+            性格孤僻，有严重到精神病程度的社交恐惧症。无法和人对上眼神，无法主动和别人对话。别人的请求不敢拒绝。在学校几乎没有朋友。<br>
+            吉他技术高超，在网络上以“吉他英雄”名义活跃。但在现实乐队中因为怕生和缺乏与他人交流，完全发挥不出水平。<br>
+            在怕生或自暴自弃表情经常会崩坏。</p>
+             <img src="imgs/ico_op_04.png" alt="1"> <!--找不到介绍视频 TT-->
+        </div>
+        <div class="anime">
+            <a href="https://www.bilibili.com/video/BV1414y1h7mi/?spm_id_from=333.788&vd_source=c7e57d92008ef740697b4fc5f825d120"><img src="imgs/ico_ep1_07.png" alt="2"></a>
+            <p class="text">"伊地知虹夏/いじち にじか"<br><br>
+                性格阳光开朗，主动性较强但又时常能顾及他人的感受，总是引导着乐队前进。<br>
+                虽然平时总是表现的很坚强，但是在遭遇挫败时也会流下不甘的泪水。<br>
+                认为始终在后方注视着队友们的自己应该更加认真，然而也因此导致在录音时压力过大，始终表现不好，最终在姐姐星歌以前乐队里的鼓手莉莎的开导下，认识到自己就是乐队的路标。</p>
+        </div>
+        <div class="anime">
+            <p class="text" id="111">"山田凉" ！ <br><br>
+                喜欢吃草
+            </p>
+            <a href="https://www.bilibili.com/video/BV17G4y1W7LV/?spm_id_from=333.337.search-card.all.click&vd_source=c7e57d92008ef740697b4fc5f825d120"><img src="imgs/ico_ep3_07.png" alt="3"></a>
+        </div>
+        <div class="anime">
+            <a href="https://www.bilibili.com/video/BV1SD4y1y7rx/?spm_id_from=333.788&vd_source=c7e57d92008ef740697b4fc5f825d120"><img src="imgs/ico_op_01.png" alt="4"></a>
+            <p class="text">"喜多郁代/きた いくよ"<br><br>
+                喜欢与别人交流，擅于社交的女孩，但不喜欢别人用“郁代”称呼自己。<br>
+                因为憧憬山田凉同时缺乏乐队常识而盲目自信地加入结束乐队，导致在结束乐队首次Live前因为不会吉他而临阵脱逃，尔后在后藤一里的帮助下重新回到乐队中担任主唱和吉他手，并在一里的指导下学习吉他。</p>
+
+        </div>
+    </div>
+
+   </div>
+</body>
+</html>

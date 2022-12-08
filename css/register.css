@@ -1,0 +1,124 @@
+body{
+    height: 100vh;
+    width: auto;
+    background-color: rgb(227, 177, 177);
+    background-image: 
+    radial-gradient(closest-side, rgb(255, 128, 128,1),rgba(255, 128, 128, 0)),
+    radial-gradient(closest-side, rgb(214, 208, 88,1),rgba(214, 208, 88, 0.068)),
+    radial-gradient(closest-side, rgb(92, 31, 120,1),rgba(92, 31, 120, 0.037)),
+    radial-gradient(closest-side, rgb(234, 158, 71,1),rgba(234, 158, 71, 0.055));
+    background-position:
+    -80vmax -50vmax,
+    40vmax 10vmax,
+    -40vmax -30vmax,
+    50vmax -50vmax;
+    padding: 0;
+    margin: 0;
+}
+@keyframes border {
+    0%{
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+    }
+   
+    100%{
+        box-shadow: 0 0 0 18px rgba(255, 255, 255, 0);
+    }
+}
+.outside{
+    animation: border 1.5s infinite;
+    padding: 2.6vmax;
+    margin: 10vmax auto;
+    width: 30vmax;
+    background-color: rgba(240, 248, 255, 0.269);
+    border-radius: 10px;
+}
+.main{
+    padding-top: 2vh;
+}
+.item{
+    display:flex ;
+    justify-content:space-evenly;
+}
+.item button{
+    width: 10vmax;
+    margin-bottom: 2vh;
+    height: 3vmax;
+    border: none;
+    border-radius: 50px;
+    background-color:rgba(245, 222, 179, 0.313);
+    font-size: 1.5vmax;
+    color: azure;
+    font-family: Arial;
+    text-shadow:
+    0px 0px 1px rgba(236, 143, 143, 0.505);
+}
+#sign{
+    margin-top: 1%;
+    padding: 4%;
+    border-radius: 10px;
+    display: flex ;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height:30vh;
+    background-color: rgba(252, 254, 253, 0.438);
+}
+#reg{
+    margin-top: 1%;
+    padding: 4%;
+    border-radius: 10px;
+    display: flex ;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height:30vh;
+    background-color: rgba(32, 32, 30, 0.438);
+}
+#sign p{
+    font-size: 1.3vmax;
+    color: rgba(8, 8, 8, 0.584);
+}
+#reg p{
+    font-size: 1.3vmax;
+    color: rgba(236, 236, 236, 0.584);
+}
+
+.main .n{
+    height: 3vh;    
+    border: none;
+    background-color: rgba(106, 168, 223, 0.116);
+}
+
+.main .s{
+    border: none;
+    width: 10vw;
+    height: 4vh;
+    border-radius: 10px;
+    color: rgba(230, 80, 80, 0.308);
+    background-color: rgba(252, 253, 247, 0.263);
+    font-size: 1.3vmax;
+    transition: 1s;
+}
+.main .s:hover{
+    background-color: rgb(229, 244, 239);
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height:100px;
+}
+
+.back {
+    color: rgba(240, 248, 255, 0.717);
+    padding: 12px 36px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: 1.1s;
+    margin-top: 1vmax;
+}
+.back:hover{
+    padding: 12px 36px;
+    background: white;
+    color:black;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登入页面</title>
+    <script src="js/register.js"></script>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <div class="nav">
+    <a class="back" href="index.html">回到首页</a>
+</div>
+<div class="outside">
+<div class="control">
+    <div class="item">
+        <button id="bt1" onclick="hidereg()">sign in</button> 
+        <button id="bt2" onclick="hidesign()">register</button>
+    </div>
+</div>
+
+<div class="main">
+    <div id="sign">
+        <p>username/用户名</p>
+        <input class="n" type="text"  id="login-username"/>
+        <p>password/密码</p>
+        <input class="n" type="password"  id="login-password"/>
+        <br>
+        <input class="s" value="登录" type="submit" placeholder="login in" onclick="login()"/>
+    </div>
+
+    <div id="reg">
+        <p>username/用户名</p>
+        <input class="n" type="text"  id="register-username"/>
+        <p>password/密码</p>
+        <input class="n" type="password"  id="register-password"/>
+       
+        <br>
+        <input class="s" value="注册" type="submit"  onclick="register()"/>
+    </div>
+</div>
+   
+</div>
+    
+    
+    
+</body>
+</html>
